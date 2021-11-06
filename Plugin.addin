@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>MyPlugin</Name>
+    <FullClassName>MainClass</FullClassName>
+    <Description>This is a test plugin</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly></Assembly>
+    <AddInId>01234567-89ab-cdef-0123</AddInId>
+    <VendorId>TFA</VendorId>
+    <VendorDescription>Thor Find Andersen</VendorDescription>
+  </AddIn>
+</RevitAddIns>
