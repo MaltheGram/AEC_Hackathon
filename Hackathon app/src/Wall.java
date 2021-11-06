@@ -14,5 +14,16 @@ public class Wall
         this.startPoint = startPoint;
         this.endPoint = endPoint;
     }
+
+    @Override
+    public String toString() {
+        return "Wall{" +
+                "type='" + type + '\'' +
+                ", id=" + id +
+                ", length=" + length +
+                ", startPoint=" + startPoint +
+                ", endPoint=" + endPoint +
+                '}';
+    }
 }
 
